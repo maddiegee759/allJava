@@ -1,0 +1,138 @@
+1. Find the line with the incorrect method call
+
+public static void display(String msg) {
+    System.out.println(msg);
+}
+
+* display("Hello", "World");
+
+
+2. Complete the void method declaration
+
+public static ___ printMessage(String text) {
+    System.out.println(text);
+}
+
+null
+* void
+String
+
+
+3. What is the main purpose of a method?
+
+* To reuse a piece of code multiple times
+To make the program run faster
+To create new data types
+To store data permanently
+
+
+4. What does a void method indicate?
+
+The method cannot be called
+The method has no parameters
+The method is empty
+* The method does not return any value
+
+
+5. Define a method that accepts an integer argument
+
+public static void checkNumber(___ num) {
+    System.out.println(num);
+}
+
+void
+* int
+return
+
+
+6. Find the method that is NOT a valid overload of the others
+
+public static int multiply(int a, int b) {
+    return a * b;
+}
+
+* public static int multiply(int x, int y) {
+    return x * y;
+}
+
+Note: This method has the same parameter types as the first one. Different parameter names alone don't create a valid overload.
+
+
+7. What does the return statement do in a method?
+
+Prints a value to the console
+Ends the program
+Declares a new variable
+* Specifies the value the method should output
+
+
+8. What happens when you call greet(); after defining this method?
+public static void greet() {
+    System.out.println("Welcome to Coddy");
+}
+
+* It prints "Welcome to Coddy"
+Nothing happens
+It creates a new method
+It returns the string "Welcome to Coddy"
+
+
+9. What must match when storing a method's return value?
+
+The method name and variable name
+* The return type and the variable's data type
+The number of parameters and arguments
+The access modifier and return type
+
+
+10. What is method overloading?
+
+Making a method return multiple values
+Calling a method multiple times
+* Defining multiple methods with the same name but different parameters
+Creating methods with different names
+
+
+11. Complete the method declaration syntax
+___ static void sayHello() {
+    System.out.println("Hello");
+}
+
+* public
+void
+return
+
+
+13. What must be true about method code and its call?
+
+* The method code must come before its call
+The method call must come before the method code
+Methods can only be called once
+The order doesn't matter
+
+
+14. What happens if you pass too many arguments to a method?
+
+Extra arguments are stored for later
+* The program will fail
+Extra arguments are ignored
+The method runs normally
+
+
+15. Which is NOT a valid way to overload a method?
+
+Changing the types of parameters
+Changing the number of parameters
+Changing only the return type
+Changing the order of parameter types
+
+
+16. Store the returned value in a variable
+public static int getValue() {
+    return 50;
+}
+ 
+int result = ___;
+getValue
+* getValue()
+return 50

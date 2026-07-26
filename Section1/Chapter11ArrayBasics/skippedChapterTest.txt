@@ -1,0 +1,146 @@
+1. int[] arr = {5, 2, 9, 1};
+Arrays.sort(arr);
+What does arr[0] contain after sorting?
+
+5
+9
+* 1
+2
+
+
+2. Compare two arrays for equality
+int[] a = {1, 2, 3};
+int[] b = {1, 2, 3};
+boolean same = Arrays.___(a, ___);
+
+Blank #1
+* equals
+match
+compare
+
+Blank #2
+a
+* b
+{1, 2, 3}
+
+
+3. Create an array of 3 integers using the new keyword
+int[] values = ___ int[___];
+
+Blank #1
+* new
+create
+make
+
+Blank #2
+* 3
+2
+4
+
+
+4. Find the correct array declaration with initial values
+
+int[] a = [1, 2, 3];
+* int[] b = {1, 2, 3};
+int[] c = new {1, 2, 3};
+int[] d = (1, 2, 3);
+
+
+5. char[] letters = {'a', 'b', 'c', 'd', 'e'};
+What is the index of element 'e'?
+
+3
+1
+5
+* 4
+
+
+6. How do you get the number of elements in an array?
+
+length(arrayName)
+arrayName.count()
+* arrayName.length
+arrayName.size()
+
+
+7. int[] nums = new int[4];
+What values does this array contain?
+
+The array is empty
+All elements are null
+Random values
+* All elements are 0
+
+
+8. What symbol is used to create an array in Java?
+
+* [] square brackets
+() parentheses
+<> angle brackets
+{} curly braces only
+
+
+9. Find the line that correctly prints the array contents
+
+int[] nums = {1, 2, 3};
+System.out.println(nums);
+* System.out.println(Arrays.toString(nums));
+System.out.println(nums.toString());
+
+
+10. What is the index of the first element in a Java array?
+
+1
+* 0
+The array length
+-1
+
+
+11. String[] items = {"x", "y", "z"};
+items[1] = "w";
+What does the array contain now?
+
+{"w", "y", "z"}
+{"x", "y", "z", "w"}
+{"x", "y", "w"}
+* {"x", "w", "z"}
+
+
+12. Access the third element of the array
+int[] numbers = {10, 20, 30, 40, 50};
+int value = numbers[___];
+
+* 2
+3
+1
+
+
+13.Find the line that correctly modifies an array element
+
+String[] fruits = {"apple", "banana"};
+fruits.add("cherry");
+* fruits[0] = "grape";
+fruits.set(1, "orange");
+
+
+14. Fill all elements of the array with the value 7
+int[] data = new int[5];
+Arrays.___(data, ___);
+
+Blank #1
+* fill
+set
+add
+
+Blank #2
+0
+* 7
+5
+
+
+15. Which method sorts an array in ascending order?
+
+sort(array)
+Arrays.order(array)
+* Arrays.sort(array)
+array.sort()

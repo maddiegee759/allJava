@@ -1,5 +1,3 @@
-package allJava.Section1.Chapter4OperatorsPt1;
-
 public class ch4_2_0 {
     public static void main(String[] args) {
         // Type your code below
