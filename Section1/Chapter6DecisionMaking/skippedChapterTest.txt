@@ -1,0 +1,174 @@
+1. What is the purpose of the default case in a switch?
+
+Must be included in every switch
+Executes after every other case
+* Executes when no other case matches
+Always executes first
+
+2. What does the break statement do in a switch?
+
+* Exits the switch after a case executes
+Restarts the switch from the beginning
+Continues to the next case
+Skips to the default case
+
+3. What value does status hold after this code runs?
+int age = 25;
+String status = "Unknown";
+if (age > 18) {
+    status = "Adult";
+}
+
+null
+* "Adult"
+"Unknown"
+"Child"
+
+4. Complete the else if statement.
+int temp = 25;
+String weather;
+if (temp > 30) {
+    weather = "Hot";
+} ___ (temp > 20) {
+    weather = "Warm";
+} else {
+    weather = "Cold";
+}
+
+elseif
+elif
+* else if
+
+5. Complete the if-else statement to assign "Minor" when age is less than 18.
+int age = 15;
+String status;
+if (age >= 18) {
+    status = "Adult";
+} ___ {
+    status = "Minor";
+}
+
+* else
+otherwise
+elif
+
+6. What value does status hold after this code?
+
+int age = 40;
+String status = "None";
+if (age < 18) {
+    status = "Young";
+} else if (age >= 18 && age <= 65) {
+    status = "Adult";
+} else {
+    status = "Senior";
+}
+
+"Young"
+* "Adult"
+"None"
+"Senior"
+
+7. Find the line with incorrect syntax.
+
+int x = 10;
+* if x > 5 {
+    System.out.println("Big");
+}
+
+8. Complete the switch statement structure.
+switch (day) {
+    ___ 1:
+        dayName = "Monday";
+        break;
+    default:
+        dayName = "Unknown";
+}
+
+* case
+when
+if
+
+9. What does message hold after this code?
+int age = 16;
+String message = (age >= 18) ? "Adult" : "Minor";
+
+* "Minor"
+"Adult"
+null
+16
+
+10. What happens when multiple cases are combined without break?
+switch (day) {
+    case 1:
+    case 2:
+    case 3:
+        result = "Early week";
+        break;
+}
+
+* All three cases execute the same code
+A compilation error occurs
+Only case 1 executes the code
+Only case 3 executes the code
+
+11. Find the line with a syntax error in this switch statement.
+
+int day = 2;
+switch (day) {
+    case 1:
+*       System.out.println("Monday");
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    default:
+        System.out.println("Other");
+}
+
+12. What is the ternary operator syntax?
+
+condition ? value_if_false : value_if_true
+if (condition) value_if_true else value_if_false
+* (condition) ? value_if_true : value_if_false
+(condition) : value_if_true ? value_if_false
+
+13. What prints when this nested if runs?
+int age = 20;
+boolean hasLicense = false;
+if (age > 18) {
+    if (hasLicense) {
+        System.out.println("Can drive");
+    } else {
+        System.out.println("Get license");
+    }
+} else {
+    System.out.println("Too young");
+}
+
+* Get license
+Nothing prints
+Can drive
+Too young
+
+14. Complete the ternary operator to assign "Pass" if score is 60 or above, otherwise "Fail".
+int score = 75;
+String result = (score >= 60) ___ "Pass" ___ "Fail";
+
+Blank #1
+&&
+* ?
+:
+
+Blank #2
+;
+* :
+?
+
+Note: String result = (score >= 60) ? "Pass" : "Fail";
+
+15. What is required to define a code block in a Java if statement?
+
+Parentheses ()
+Square brackets []
+Indentation only
+* Curly braces {}

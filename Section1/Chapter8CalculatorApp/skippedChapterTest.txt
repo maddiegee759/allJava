@@ -1,0 +1,80 @@
+1. Which operator performs multiplication?
+
+x
+%
+ANS *
+/
+
+2. System.out.println() is used for user input.
+True
+* False
+
+3. Declare a variable for a whole number.
+___ score = 100;
+
+var
+* int
+String
+double
+
+4. Subtract cost from balance.
+
+double balance = 100.0;
+double cost = 25.5;
+double remaining = balance ___ cost;
+
+ANS -
+/
++
+*
+
+5. Add two numbers and print the result.
+
+int num2 = 10;
+int num1 = 15;
+int sum = num1 + num2;
+System.out.println(sum);
+Drag and drop the lines to reorder them
+
+ANS
+int num1 = 15;
+int num2 = 10;
+int sum = num1 + num2;
+System.out.println(sum);
+
+6. Find the line with a syntax error.
+public class Calculator {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 2;
+        * double result = a / b;
+        System.out.println(result);
+    }
+}
+
+Note: Dividing two integers (`int`) in Java results in an integer division, truncating any decimal part. While not a syntax error, it's a logical error as the result will be 2.0, not 2.5. To get a correct decimal result, at least one operand should be a double, e.g., `(double) a / b`.
+
+7. What is the result of this operation?
+System.out.println(10 / 4);
+
+* 2
+2.5
+3
+Error
+
+8. Get user input and print it.
+Drag and drop the lines to reorder them
+
+9. Find the line that causes a type mismatch error.
+
+public class Test {
+    public static void main(String[] args) {
+        * int value = "hello";
+        System.out.println(value);
+    }
+}
+
+10. A double variable can store numbers with decimals.
+
+* True
+False

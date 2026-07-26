@@ -1,0 +1,111 @@
+1. What should you do after finishing with a Scanner?
+
+Nothing, it closes automatically
+Set it to null
+* Call scanner.close()
+Call scanner.stop()
+
+2. What method reads a full line of text from input?
+
+readLine()
+nextDouble()
+nextInt()
+* nextLine()
+
+3. What method reads an integer from user input?
+
+nextDouble()
+* nextInt()
+readInt()
+nextLine()
+
+4. Combine a string with a variable using concatenation:
+String name = "Bob";
+System.out.println("Hello, " ___ name);
+
+* +
+&
+,
+
+5. What will this code output?
+System.out.print("Hello");
+System.out.print("World");
+
+* HelloWorld
+Hello World
+Hello on one line, World on the next
+An error occurs
+
+6. What is the difference between print() and println()?
+
+They are identical in behavior
+* println() adds a newline, print() does not
+print() adds a newline, println() does not
+print() only works with numbers
+
+7. Complete the code to print a formatted message with a string variable:
+String city = "Paris";
+System.out.printf("Welcome to ___", city);
+
+%d
+* %s
+%f
+
+8. Read a double value from user input:
+double price = scanner.___();
+
+* nextDouble
+nextLine
+nextInt
+
+9. Which placeholder is used for integers in printf()?
+
+
+%s
+%f
+* %d
+%i
+
+10. What does %.2f do in printf()?
+
+Rounds the number to the nearest 2
+* Formats a floating-point number to two decimal places
+Multiplies the number by 2
+Prints the number twice
+
+11. Print a message and then start a new line:
+
+System.out.____("First line");
+System.out.print("Second line");
+
+* println
+printf
+print
+
+12. Which placeholder is used for strings in printf()?
+
+%str
+%d
+* %s
+%f
+
+13. Create a Scanner object to read user input:
+Scanner scanner = new Scanner(___);
+
+* System.in
+System.out
+System.input
+
+14. Find the line that will NOT print the variable's value:
+
+int score = 100;
+* System.out.println("Score: score");
+System.out.println("Score: " + score);
+System.out.printf("Score: %d", score);
+
+15. Which class is used to get input from a user in Java?
+
+System.out
+Input
+Reader
+* Scanner

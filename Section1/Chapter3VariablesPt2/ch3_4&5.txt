@@ -1,0 +1,18 @@
+Type Casting Part 1
+In Java, we can convert integers to doubles, doubles to integers, and more. There are two types of casting: implicit (automatic) and explicit (manual) casting.
+
+For example integer to double:
+
+Implicit (automatic) casting:
+
+int number = 5;
+double decimal = number; // automatically becomes 5.0
+
+// with calculation
+int x = 7;
+double result = x / 2.0; // result is 3.5
+
+Type Casting Part 2
+
+It is also possible to convert number and booleans to string and vice versa. To convert a value to string we can use the String.valueOf() function:
+

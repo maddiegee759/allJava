@@ -1,0 +1,112 @@
+1. Find the line with invalid variable naming
+
+int userAge = 25;
+* String class = "Math";
+double totalPrice = 99.99;
+
+2. What keyword declares a constant in Java?
+
+const
+* final
+constant
+static
+
+3. What happens when parsing an invalid number string?
+int num = Integer.parseInt("abc");
+
+The code compiles but nothing happens
+* A NumberFormatException occurs
+num becomes 0
+num becomes null
+
+4. Convert a string to a double
+String text = "45.67";
+double value = Double.parseDouble(text);
+
+* Double.parseDouble
+String.valueOf
+Integer.parseInt
+
+5. Find the line with an error
+
+final int MAX_SIZE = 50;
+* MAX_SIZE = 100;
+System.out.println(MAX_SIZE);
+
+6. What is the result of implicit casting from int to double?
+int x = 5;
+double y = x;
+
+* y becomes 5.0
+y becomes 5
+y becomes 0.5
+A compilation error occurs
+
+7. Convert an integer to a string
+int number = 789;
+String text = ___(number);
+
+String.parse
+* String.valueOf
+Integer.parseInt
+
+8. What value does number hold after this code?
+double decimal = 9.7;
+int number = (int) decimal;
+
+* 9
+10
+0
+9.7
+
+9. Are myVar and myvar the same variable?
+
+* No, Java is case-sensitive
+Yes, they are identical
+Only in certain contexts
+It depends on the data type
+
+10. What happens when you reassign a final variable?
+
+* A compilation error occurs
+The value changes normally
+The new value is ignored
+The program crashes at runtime
+
+11. Which variable name follows Java conventions?
+
+StudentCount
+* studentCount
+STUDENT_COUNT
+student_count
+
+12. Which character can a Java variable name start with?
+
+A hyphen -
+A space
+A digit
+* An underscore _
+
+13. What does Boolean.parseBoolean("TRUE") return?
+
+false
+"TRUE"
+An error occurs
+* true
+
+Note: The method is case-insensitive, so "TRUE", "True", or "true" all convert to boolean true.
+
+14. Which naming convention is correct for constants?
+
+* MAX_VALUE
+max_value
+MaxValue
+maxValue
+
+15. Convert a string to an integer
+String text = "123";
+int number = ___(text);
+
+* Integer.parseInt
+Double.parseDouble
+String.valueOf

@@ -1,0 +1,109 @@
+1. What does the && operator return?
+
+true if any operand is true
+* true only if all operands are true
+true if the operand is false
+false only if all operands are true
+
+2. What does !true evaluate to?
+
+false 
+* true
+1
+0
+
+3. What is the result of false && true?
+
+null
+true
+* false
+An error occurs
+
+4. What is short-circuit evaluation?
+
+* Stopping evaluation when the final result is already known
+Reversing the order of operands
+Evaluating all operands before returning a result
+Converting boolean values to integers
+
+5. Given x = 0, what happens here?
+boolean result = x != 0 && 10 / x > 2;
+
+result is 0
+An error occurs due to division by zero
+result is true
+* result is false, no error occurs
+
+6. Complete the expression to check if x is positive AND y is negative:
+boolean result = (x > 0) ___ (y < 0);
+
+* &&
+||
+!
+
+7. What is the result of this expression?
+(10 < 5) || (7 > 3)
+
+false
+10
+* true
+7
+
+8. What is the result of false || false?
+
+* false
+An error occurs
+true
+0
+
+9. Negate the value of isActive:
+boolean result = ___isActive;
+
+||
+&&
+* !
+
+
+10. What is the result of this expression?
+(4 > 2) && (3 == 3)
+
+An error occurs
+4
+* true
+false
+
+11. Use the correct operator to check if a OR b is true:
+boolean result = a ___ b;
+
+&&
+!
+* ||
+
+12. According to De Morgan's Law, !(A || B) equals:
+
+A && B
+A || B
+* (!A) && (!B)
+(!A) || (!B)
+
+13. What is the result of !(false)?
+
+* true
+null
+An error occurs
+false
+
+14. According to De Morgan's Law, !(A && B) equals:
+
+A || B
+A && B
+(!A) && (!B)
+* (!A) || (!B)
+
+15. Find the line that will cause a division by zero error:
+
+int x = 0;
+int y = 10;
+* boolean result = y / x > 2 && x != 0;
+
+Note: The division y / x is evaluated first before the short-circuit can prevent it. Moving x != 0 to the left would prevent this error.
