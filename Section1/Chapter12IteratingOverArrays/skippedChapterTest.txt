@@ -1,0 +1,163 @@
+1. Complete the enhanced for loop to iterate through the array:
+String[] colors = {"red", "blue", "green"};
+for (___ color : ___) {
+    System.out.println(color);
+}
+
+Blank #1
+* String
+color
+int
+
+Blank #2
+* colors
+color
+String
+
+
+2. What does iteration mean in programming?
+
+Creating new arrays
+Sorting elements in order
+* Going through elements one by one in a sequence
+Deleting elements from an array
+
+
+3. What is the purpose of (double) in calculating the average?
+double average = (double) sum / numbers.length;
+
+To round the result to the nearest integer
+To convert the array to doubles
+* To cast the result to a decimal number
+To make the code run faster
+
+
+4. What is another name for the enhanced for loop?
+
+While loop
+Do-while loop
+* For-each loop
+Index loop
+
+
+5. Find the line with incorrect loop syntax for array iteration:
+
+int[] scores = {85, 90, 78};
+* for (int i = 0; i <= scores.length; i++) {
+    System.out.println(scores[i]);
+}
+
+
+6. Complete the code to find the sum of array elements:
+int[] values = {10, 20, 30};
+int sum = ___;
+for (int value : values) {
+    sum ___ value;
+}
+
+Blank #1
+1
+* 0
+values[0]
+
+Blank #2
+* +=
+=
+-=
+
+
+7. Why is the enhanced for loop considered less prone to errors?
+
+It runs faster than standard loops
+* It automatically handles indexing and retrieval
+It can modify array elements directly
+It works only with small arrays
+
+
+8. When finding the maximum value, why do we initialize max with numbers[0]?
+
+Because the first element is always the largest
+Because arrays must start with the maximum value
+* To start with an actual value from the array for comparison
+To skip the first element during iteration
+
+
+9. Complete the standard for loop to print all array elements:
+
+int[] data = {1, 2, 3, 4};
+for (int i = ___; i < data.___; i++) {
+    System.out.println(data[i]);
+}
+
+Blank #1
+1
+* 0
+data[0]
+
+Blank #2
+size
+* length
+count
+
+
+10. What controls when a standard for loop stops iterating through an array?
+
+i == array.length
+i <= array.length
+i > 0
+* i < array.length
+
+
+11. In a standard for loop, what does fruits[i] represent?
+
+* The element at index i in the array
+The total number of fruits
+The length of the fruits array
+The name of the array
+
+
+12. Find the line with the syntax error in this enhanced for loop:
+
+double[] prices = {9.99, 5.50, 3.25};
+* for (int price : prices) {
+    System.out.println(price);
+}
+
+
+13. Complete the code to find the minimum value:
+
+int[] nums = {5, 2, 8, 1};
+int min = nums[0];
+for (int i = 1; i < nums.length; i++) {
+    if (nums[i] ___ min) {
+        min = ___;
+    }
+}
+
+Blank #1
+==
+>
+* <
+
+Blank #2
+min
+i
+* nums[i]
+
+
+14. When is the enhanced for loop especially useful?
+
+When you need to skip certain elements
+When you need to modify elements in place
+When iterating backwards through an array
+* When accessing each element without modifying the collection
+
+
+15. Why does the maximum-finding loop start at index 1?
+
+for (int i = 1; i < numbers.length; i++)
+
+Because the first element is always the maximum
+Because arrays always start at index 1
+Because it makes the loop run faster
+* Because index 0 was already used to initialize max

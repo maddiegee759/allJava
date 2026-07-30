@@ -1,4 +1,4 @@
-public class ch11_1 {
+public class ch11_1_0 {
     public static void main(String[] args) {
         // Create the shoppingList array here
         String[] shoppingList = {"bread", "eggs", "milk", "butter"};

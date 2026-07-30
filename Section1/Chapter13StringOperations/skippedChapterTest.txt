@@ -1,0 +1,140 @@
+1. Split a CSV string into an array
+
+String data = "red,green,blue";
+String[] colors = data.___(___);
+
+Blank #1
+divide
+* split
+separate
+
+Blank #2
+";"
+* ","
+" "
+
+
+2. Why should you use equals() instead of == to compare strings?
+
+== only works with primitive types
+== causes a compilation error with strings
+* == compares memory addresses, not string contents
+equals() is faster than ==
+
+
+3. What does String.join("-", new String[]{"a", "b", "c"}) return?
+
+"abc"
+* "a-b-c"
+"a, b, c"
+"-a-b-c-"
+
+
+4. What does "apple".startsWith("app") return?
+
+* true
+"app"
+0
+false
+
+
+5. What does substring(7, 12) return from "Hello, World!"?
+
+"orld!"
+"World!"
+" World"
+* "World"
+
+Note: index 7 (inclusive) to index 12 (exclusive)
+
+6. What does "Hello World".substring(6) return?
+
+"orld"
+* "World"
+" World"
+"Hello "
+
+
+7. Find the incorrect format specifier usage
+
+String name = "Bob";
+int age = 25;
+double score = 95.5;
+* String result = String.format("Name: %s, Age: %f, Score: %.1f", name, age, score);
+
+%f for age (int)
+
+
+8. What does compareTo() return when two strings are equal?
+
+1
+* 0
+-1
+true
+
+
+9. Check if a filename ends with a specific extension
+
+String filename = "report.pdf";
+boolean isPdf = filename.___(".pdf");
+
+startsWith
+contains
+equals
+* endsWith
+
+
+10. What is the result of "Hello".charAt(0)?
+
+* 'H'
+'e'
+'h'
+"H"
+
+
+11. Convert a string to all lowercase letters
+
+String text = "JAVA";
+String lower = text.___();
+
+toUpperCase
+lower
+* toLowerCase
+lowerCase
+
+
+12. What does "HELLO".equalsIgnoreCase("hello") return?
+
+1
+false
+* true
+0
+
+
+13. What format specifier inserts an integer?
+
+%f
+%i
+* %d
+%s
+
+
+14. Find the line with incorrect string comparison
+
+String a = "test";
+String b = "test";
+* if (a == b) {
+    System.out.println("Equal");
+}
+boolean result = a.equals(b);
+
+
+15. Format a price with exactly 2 decimal places
+
+double price = 9.5;
+String result = String.format("Cost: ___", price);
+
+%d
+%s
+%f
+* %.2f
