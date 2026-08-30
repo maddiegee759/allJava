@@ -2,12 +2,12 @@
 
 |Lesson |Name| Complete|
 |:-|:-|:-| 
-|1.0|Logical Operators|N|
-|1.1|Mastery|N|
-|2.0|Logical Operators Part 2|N|
-|2.1|Mastery|N|
-|3.0|Recap - Simple Logic|N|
-|4.0|Logical Operators Part 3|N|
-|5|Logical Operators Part 4|N|
-|5.1|Mastery|N|
-|6|Chapter Trophy|N|
+|1.0|Logical Operators|Y|
+|1.1|Mastery|Y|
+|2.0|Logical Operators Part 2|Y|
+|2.1|Mastery|Y|
+|3|Recap - Simple Logic|Y|
+|4|Logical Operators Part 3|Y|
+|5.0|Logical Operators Part 4|Y|
+|5.1|Mastery|Y|
+|6|Chapter Trophy|Y|

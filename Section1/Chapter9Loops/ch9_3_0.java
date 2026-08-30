@@ -9,7 +9,7 @@ public class ch9_3_0 {
             sum += number;
             number += 2;
             System.out.println("Sum is: " + sum);
-            System.out.println("Number is: " + number);
+            System.out.println("Num is: " + number);
         } while(number <= 50);
 
         // Print the final sum

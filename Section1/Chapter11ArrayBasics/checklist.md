@@ -9,6 +9,6 @@
 |4.0|Array Methods|Y|
 |4.1|Mastery|Y|
 |5.0|Recap - Product Array|Y|
-|5.1|Mastery|N|
+|5.1|Mastery|Y|
 |6|Recap - Reverse Array|Y|
-|7|Chapter Trophy|N|
+|7|Chapter Trophy|Y|

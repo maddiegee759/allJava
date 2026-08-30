@@ -10,11 +10,11 @@ public class ch13_1_0 {
         // substring 7 - end
         System.out.println("Substring: " + str.substring(7));
         //substring 3 - 6
-        System.out.println("Substring: " + str.substring(3,6));
+        System.out.println("Substring 2: " + str.substring(3,6));
         // end with dot
-        System.out.println(str.endsWith("."));
+        System.out.println("Ends with dot: " + str.endsWith("."));
         // uppercase
-        System.out.println(str.toUpperCase());
+        System.out.println("Uppercase: " + str.toUpperCase());
     }
 
     public static void main(String[] args) {

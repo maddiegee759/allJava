@@ -11,4 +11,4 @@
 |4.1|char|Y|
 |4.2|Mastery|Y|
 |5|Type Declaration|Y|
-|6|Chapter Trophy|N|
+|6|Chapter Trophy|Y|

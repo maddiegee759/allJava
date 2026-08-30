@@ -1,6 +1,5 @@
-import java.util.Scanner;
-import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ch12_1 {
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class ch12_1 {
             }
         }
 
-        System.out.println(Arrays.toString(arr));
+        //System.out.println(Arrays.toString(arr));
         System.out.println(longArr);
     
         scanner.close();

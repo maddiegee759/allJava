@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class ch12_3 {
+public class ch12_3_0 {
     public static double[] calculateStats(int[] arr) {
         double[] stats = new double[4];
 
-        int sum = 0;
+        double sum = 0;
         for (int num : arr) {
             sum += num;
         }
@@ -36,14 +36,14 @@ public class ch12_3 {
         String[] arrString = text.split(",");
         int[] numbers = new int[arrString.length];
         for (int i = 0; i < arrString.length; i++) {
-           numbers[i] = Integer.parseInt(arrString[i]);
+            numbers[i] = Integer.parseInt(arrString[i]);
         }
         double[] stats = calculateStats(numbers);
         System.out.println("Sum: " + stats[0]);
         System.out.println("Average: " + stats[1]);
         System.out.println("Maximum: " + stats[2]);
         System.out.println("Minimum: " + stats[3]);
- 
+
         scanner.close();
     }
 }

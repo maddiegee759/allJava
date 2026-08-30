@@ -1,7 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "Section2/Chapter1MultiDimArrays",
         "Section1/Chapter9Loops",
         "Section1/Chapter7BasicIO",
+        "Section1/Chapter6DecisionMaking",
+        "Section1/Chapter5OperatorsPt2",
         "Section1/Chapter4OperatorsPt1",
         "Section1/Chapter3VariablesPt2",
         "Section1/Chapter2VariablesPt1",
@@ -11,6 +14,6 @@
         "Section1/Chapter12IteratingOverArrays",
         "Section1/Chapter11ArrayBasics",
         "Section1/Chapter10Methods",
-        "Section2/Chapter1MultiDimArrays"
+        "Section1/Chapter8CalculatorApp"
     ]
 }
