@@ -1,7 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "Section2/Chapter3HashMapPt2",
+        "Section2/Chapter2HashMapPt1",
         "Section2/Chapter1MultiDimArrays",
         "Section1/Chapter9Loops",
+        "Section1/Chapter8CalculatorApp",
         "Section1/Chapter7BasicIO",
         "Section1/Chapter6DecisionMaking",
         "Section1/Chapter5OperatorsPt2",
@@ -14,6 +17,9 @@
         "Section1/Chapter12IteratingOverArrays",
         "Section1/Chapter11ArrayBasics",
         "Section1/Chapter10Methods",
-        "Section1/Chapter8CalculatorApp"
+        "Section2/Chapter4HashSetPt1"
+    ],
+    "java.project.referencedLibraries": [
+        "Section2/lib/gson-2.13.1.jar"
     ]
 }
