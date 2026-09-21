@@ -1,5 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "Section2/Chapter6AdvControlFlow",
+        "Section2/Chapter5HashSetPt2",
+        "Section2/Chapter4HashSetPt1",
         "Section2/Chapter3HashMapPt2",
         "Section2/Chapter2HashMapPt1",
         "Section2/Chapter1MultiDimArrays",
@@ -17,7 +20,7 @@
         "Section1/Chapter12IteratingOverArrays",
         "Section1/Chapter11ArrayBasics",
         "Section1/Chapter10Methods",
-        "Section2/Chapter4HashSetPt1"
+        "Section2/Chapter7BasicErrorHandling"
     ],
     "java.project.referencedLibraries": [
         "Section2/lib/gson-2.13.1.jar"
